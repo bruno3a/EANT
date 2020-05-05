@@ -11,7 +11,7 @@ library(sp)
 
 rm(list = ls())
 getwd()
-setwd('C:/Users/Bruno/Documents/Bruno/Emprender/Formación/EANT - Data Analytics/Proyecto Final')
+setwd('C:/Users/Bruno/Documents/Bruno/Emprender/Formaci?n/EANT - Data Analytics/Proyecto Final')
 dir()
 
 df= read.csv('Covid19arData - Prov_CABA.csv',encoding = 'UTF-8')
@@ -61,4 +61,5 @@ dfnew %>%
                                                   weight = 2,
                                                   bringToFront = TRUE)
   )
-              
+
+#Just testing
